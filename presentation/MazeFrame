@@ -1,0 +1,9 @@
+package Presentation;
+
+public class MazeFrame {
+
+  public class MazeFrame() {
+  
+  }
+
+}
