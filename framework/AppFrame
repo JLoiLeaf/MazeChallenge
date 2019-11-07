@@ -1,0 +1,9 @@
+package Framework;
+
+public class AppFrame {
+  
+  public AppFrame() {
+  
+  }
+
+}
