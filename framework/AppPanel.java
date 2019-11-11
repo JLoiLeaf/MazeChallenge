@@ -11,11 +11,15 @@ public class AppPanel extends JPanel implements Observer {
 	protected ActionListener listener;
 	protected Set<View> views;
 		  
-	
+	// Constructor
+	public AppPanel(Model model, ActionListener listener) {
+		this.model = model;
+		this.listener = listener;
+	}	
 	
 	// not completely sure how to use this yet.
 	// We have an update in the view as well but I'm
-	// not sure how the pnel is updated
+	// not sure how the panel is updated
 // UNFINISHED
 	public void update(Observable subject, Object msg) {
 		// override in a subclass if desired

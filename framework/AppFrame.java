@@ -2,7 +2,6 @@ package framework;
 
 import java.awt.event.*;
 import javax.swing.*;
-import framework.*;
 
 @SuppressWarnings("serial")
 public class AppFrame extends JFrame implements ActionListener {
