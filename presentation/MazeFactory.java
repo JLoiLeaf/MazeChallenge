@@ -25,8 +25,8 @@ public class MazeFactory implements AppFactory {
 
 	@Override
 	public String[] getEditCommands() {
-		// TODO Auto-generated method stub
-		return new String[] { "North", "South", "East", "West", "Reset" };
+		String[] commands = { "North", "South", "East", "West", "Reset" };
+		return commands;
 	}
 
 	
@@ -79,8 +79,7 @@ public class MazeFactory implements AppFactory {
 
 	@Override
 	public String[] getHelp() {
-		String[] help = new String[1];
-		help[1] = "Locate the escape room in the number of allocated moves";
+		String[] help = { "Locate the escape room in the number of allocated moves" };
 		return help;
 	}
 

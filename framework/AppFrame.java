@@ -112,5 +112,4 @@ public class AppFrame extends JFrame implements ActionListener {
 		  panel.setModel(model);
 	}
 	
-	
 } 
